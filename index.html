@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Heading Part -->
+    <div class="heading ">
+        <div class="headbox">Rock Paper Scissor Game</div>
+    </div>
+
+
+    <!-- Images -->
+    <div class="images">
+        <div class="img" id="Rock">
+            <img src="rock.png" >
+        </div>
+        <div class="img" id="Paper">
+            <img src="paper.png" >
+        </div>
+        <div class="img" id="Scissors">
+            <img src="scissor.png" >
+        </div>
+    </div>
+    <!-- Result Display  -->
+    <div class ="result-d">
+        <p id = "result" class="rdisplay"> Select Your Choice </p>
+    </div>
+
+
+    <!-- score Board -->
+    <div class="row">
+            <table class=" table">
+                <h1 class="table-head"> Score Board</h1>
+                    <tr>
+                        <th> User Score </th>
+                        <th> Computer Score</th>
+                    </tr>
+                    <tr>
+                        <td id="user-score">0</td>
+                        <td id="com-score">0</td>
+                    </tr>
+        </table>
+        <!-- Choice Board -->
+        <table class=" table" >
+            <h1 class="table-head-1"> Selected Choice</h1>
+                <tr>
+                    <th> User Choice </th>
+                    <th> Computer Choice</th>
+                </tr>
+                <tr>
+                    <td id="user-ch">0</td>
+                    <td id="com-ch">0</td>
+                </tr>
+    </table>
+    </div>
+
+   <script src="app.js"></script>     
+</body>
+</html>
